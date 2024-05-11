@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9db0fd7-6ce9-4b9e-a16a-2afe443a24fd">
+  <producedTypes>
+    <objectType typeId="e9764022-8f28-4f4d-8975-3d9fe27e48f7" valueTypeId="fddb6916-3417-48cd-8176-6d998f64685a"/>
+    <refType typeId="a0e396c9-5533-43da-bd78-804015f667d6" valueTypeId="5efa8afe-eb76-422d-b933-b481867406c8"/>
+    <selectionType typeId="a8e157a3-d617-413f-b353-f6738095662d" valueTypeId="145a0820-7bd1-4cca-86ad-6ae2bd8f0958"/>
+    <listType typeId="e79d6dd3-1edc-4034-9242-c1b26a775eba" valueTypeId="7638f466-01bc-4fae-b0df-1dfa5fcf18be"/>
+    <managerType typeId="a032023a-c90a-42a7-a441-86a8e5c520f8" valueTypeId="c1aaf8bf-ecfe-4c4e-9028-deb7c1d1ee8f"/>
+  </producedTypes>
+  <name>НазначениеУчетнойПолитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение учетной политики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НазначениеУчетнойПолитики.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.УчетнаяПолитика</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6084e199-09e4-46ef-9d6c-bea98b3ddcdf">
+    <name>МетодСписанияСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания себестоимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

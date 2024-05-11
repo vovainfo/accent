@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac5a244c-c7dc-4d76-a307-0d51ec486620">
+  <producedTypes>
+    <selectionType typeId="625f0e01-e65f-4f92-9c86-98fc83ba15e3" valueTypeId="9c1eb401-fe1b-49fc-8adb-c2efbea1b0ca"/>
+    <listType typeId="7ce111cb-ef8f-4354-8a1b-bd0dde13319b" valueTypeId="f680ffbf-58cf-4d7a-a674-d5dda83ec6fc"/>
+    <managerType typeId="720f6b8b-eb7e-4ee3-bae4-a6d10bb2fa44" valueTypeId="814f8f49-456f-4695-877b-463e0b2f8af6"/>
+    <recordSetType typeId="12e4dc28-c3aa-49a5-ab15-558d3fa0c7f1" valueTypeId="45ebc5fe-60ef-4315-b5dd-30bde3757277"/>
+    <recordKeyType typeId="763e3031-afdc-4b1f-a1bb-73e91a807d3e" valueTypeId="7f32f80f-20df-4f0b-8fea-662c3a98aef0"/>
+    <recordType typeId="62c8d121-9241-40bb-89c8-9bc1a7b6479d" valueTypeId="03a8750a-36ff-456b-94f1-a73e93910d22"/>
+    <recordManagerType typeId="323e4d76-75f3-4077-a2bd-4868c507a8d2" valueTypeId="8fb110dc-f18b-4890-a96b-4c4cb037bf38"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="abb52acd-175a-443b-b501-c6c221cd07ca">
+    <name>МетодСписанияСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания себестоимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

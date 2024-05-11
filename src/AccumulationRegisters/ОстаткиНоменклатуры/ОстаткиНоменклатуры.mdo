@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fd1df0f-626c-441e-97f8-c570539a4f0d">
+  <producedTypes>
+    <selectionType typeId="f93be5f0-dc3f-44b8-9467-0c2ce61e35ac" valueTypeId="94e7c52d-361a-40b9-bf28-3e104034ab40"/>
+    <listType typeId="c2c36bd4-661a-4a6a-9e91-96622d057137" valueTypeId="06e11323-8ece-4c06-b5dd-a1425b556465"/>
+    <managerType typeId="5004052b-cb98-4be4-97b5-c7a7ae42671b" valueTypeId="6f2ce195-fc6b-4ff6-881e-ea8496d4d206"/>
+    <recordSetType typeId="ac9ac995-343f-4e5b-af14-53d0a4e7f383" valueTypeId="6c29fea2-6aab-478e-bd49-c8f441305fda"/>
+    <recordKeyType typeId="c17ed8d2-f64e-48cc-8f77-aa7e429ab867" valueTypeId="f2dffad6-1cd1-4d0d-9815-5f737c726bdc"/>
+    <recordType typeId="c5d9367d-384a-42a5-bada-c51aeabab35d" valueTypeId="d3e0a228-644b-4536-9526-e68e9d78083c"/>
+  </producedTypes>
+  <name>ОстаткиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e7b9a7d5-712b-4145-8618-fec795be628c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8f62a571-4907-4529-b003-489f2f743b48">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="21f3d826-9f47-4812-9888-8607c5a1f6b8">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номеклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="585061a2-1fb7-4d9d-90d4-b72f1727963a">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4b3b4dee-6afa-464a-800d-280daefbf49b">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходнаяНакладная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="00c5292d-702b-44ad-b6a7-81c2813a980a">
+    <name>ПериодФилиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период филиал</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca068640-6926-4235-98ec-6332df09cbb9">
+  <producedTypes>
+    <objectType typeId="83cc927a-d3e9-4922-ba29-09d03cab3b3a" valueTypeId="58966ecd-b5bb-4d52-b1a0-ffbfa7e4e8d2"/>
+    <refType typeId="3ef890ab-0c42-43b3-add0-5cbdb7158c4b" valueTypeId="1dae761e-521b-4720-9360-91f281f700b2"/>
+    <selectionType typeId="068203cd-8811-407f-9adb-13fa57a7b8d9" valueTypeId="753245e6-6edc-4ef2-a721-bbb2cb712955"/>
+    <listType typeId="9de621bd-920f-4ddb-9ba8-301681e87869" valueTypeId="798726cf-f00d-42c2-afab-86e870281daa"/>
+    <managerType typeId="285224db-e1da-452d-94f2-72812a470c8d" valueTypeId="f8194276-2400-42c0-9500-a8f8216c9afe"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="562b1deb-9ad3-47f4-b981-cee2bbb2d064">
+    <name>ВременноеСмещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временное смещение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0cb9dce-e2d3-4799-a22a-40c29b4848f2">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

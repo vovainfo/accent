@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2d98b16-3064-4aa2-b5f8-88a92e2e510a">
+  <name>СкладскойУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складской учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Склад</picture>
+  </picture>
+  <content>Catalog.Склады</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.НазначениеУчетнойПолитики</content>
+  <content>Catalog.Номеклатура</content>
+</mdclass:Subsystem>

@@ -45,6 +45,8 @@
   </languages>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.СкладскойУчет</subsystems>
+  <subsystems>Subsystem.ТорговыйУчет</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ДобавленныйРеквизитФон</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
@@ -312,6 +314,8 @@
   <commonPictures>CommonPicture.ЦветФона</commonPictures>
   <commonPictures>CommonPicture.ШтампЭлектроннойПодписи</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.Склад</commonPictures>
+  <commonPictures>CommonPicture.Магазин</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
@@ -461,6 +465,9 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыAccent</commonModules>
+  <commonModules>CommonModule.гваОбработкаТабличнойЧастиКлиент</commonModules>
+  <commonModules>CommonModule.гваОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.гваУчетнаяПолитика</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>
@@ -629,6 +636,11 @@
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Номеклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.НазначениеУчетнойПолитики</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
@@ -657,6 +669,7 @@
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.УчетнаяПолитика</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
   <reports>Report.ПроверкаЦелостностиТома</reports>
@@ -703,4 +716,6 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
 </mdclass:Configuration>

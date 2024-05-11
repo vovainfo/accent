@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc163ed4-9c8e-4ffd-bdaf-99a3d2fe7a34">
+  <producedTypes>
+    <refType typeId="ca59bd9c-d9ec-4c81-a7f7-05915c798141" valueTypeId="75fcfa4e-c151-46fa-a4e6-97863b9dfb28"/>
+    <listType typeId="4b6d85f1-5966-43b5-9656-6931d7bbd25e" valueTypeId="956219f8-32e1-4909-9566-264f4f9ffba3"/>
+    <managerType typeId="7721b962-c85d-4454-8714-452d30851e91" valueTypeId="5ae7673d-e5c8-43c7-ad4d-ddc7bc03eeb5"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a43ea385-f969-4eca-b48b-54d9f65457a4">
+    <name>ФИФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>FIFO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eccea31b-684b-4c6b-8411-f39160e8825c">
+    <name>Среднее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
