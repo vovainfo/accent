@@ -342,7 +342,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СписокНоменклатуры.TotalСумма</segments>
+      <segments>Объект.СписокНоменклатуры.Сумма</segments>
     </dataPath>
     <extendedTooltip>
       <name>СуммаПоДокументуРасширеннаяПодсказка</name>
@@ -852,7 +852,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ПриходнаяНакладная</types>
+      <types>DocumentObject.РасходнаяНакладная</types>
     </valueType>
     <view>
       <common>true</common>

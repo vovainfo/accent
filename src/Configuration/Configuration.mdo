@@ -544,6 +544,9 @@
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <commandGroups>CommandGroup.Регистры</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</constants>
@@ -641,6 +644,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.НазначениеУчетнойПолитики</documents>
+  <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>

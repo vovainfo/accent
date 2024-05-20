@@ -14,4 +14,7 @@
   <content>Document.ПриходнаяНакладная</content>
   <content>Document.НазначениеУчетнойПолитики</content>
   <content>Catalog.Номеклатура</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>Document.РасходнаяНакладная</content>
 </mdclass:Subsystem>
