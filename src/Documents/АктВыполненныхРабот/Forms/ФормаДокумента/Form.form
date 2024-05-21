@@ -494,7 +494,7 @@
           <name>Отбор.ВидНоменклатуры</name>
           <value xsi:type="form:FormChoiceListDesTimeValue">
             <value xsi:type="core:ReferenceValue">
-              <value>Enum.ВидыНоменклатуры.EnumValue.Товар</value>
+              <value>Enum.ВидыНоменклатуры.EnumValue.Услуга</value>
             </value>
           </value>
         </choiceParameters>
@@ -860,7 +860,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.РасходнаяНакладная</types>
+      <types>DocumentObject.АктВыполненныхРабот</types>
     </valueType>
     <view>
       <common>true</common>

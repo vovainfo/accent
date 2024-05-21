@@ -646,6 +646,8 @@
   <documents>Document.НазначениеУчетнойПолитики</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.СписаниеТовара</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.АктВыполненныхРабот</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
@@ -728,4 +730,5 @@
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
