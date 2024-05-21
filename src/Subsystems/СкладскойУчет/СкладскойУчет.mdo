@@ -17,4 +17,10 @@
   <content>InformationRegister.УчетнаяПолитика</content>
   <content>AccumulationRegister.ОстаткиНоменклатуры</content>
   <content>Document.РасходнаяНакладная</content>
+  <content>Document.СписаниеТовара</content>
+  <content>Report.ОтчетПоОстаткамНаСкладах</content>
+  <content>Report.ОтчетПоОстаткамНаСкладе</content>
+  <content>Report.ОтчетПоДвижениямТоваровНаСкладах</content>
+  <content>Report.ОтчетПоДвижениямТоваровНаСкладе</content>
+  <content>Enum.ВидыНоменклатуры</content>
 </mdclass:Subsystem>

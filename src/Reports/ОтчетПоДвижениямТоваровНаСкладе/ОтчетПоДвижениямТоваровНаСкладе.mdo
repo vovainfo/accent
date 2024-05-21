@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b32ad92-39c8-49aa-adf0-d228ad9081a5">
+  <producedTypes>
+    <objectType typeId="d35a51d8-4a78-4e6c-84ee-6d83ab4b8ded" valueTypeId="2255f9c4-d6c0-4527-87e7-b5d0db4d5631"/>
+    <managerType typeId="b0a420f3-6b76-4750-a995-3bc06c70a025" valueTypeId="7b1c5f1d-3163-4039-98c3-0de4309cb950"/>
+  </producedTypes>
+  <name>ОтчетПоДвижениямТоваровНаСкладе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по движениям товаров на складе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоДвижениямТоваровНаСкладе.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <explanation>
+    <key>ru</key>
+    <value>Используется время базы.</value>
+  </explanation>
+  <templates uuid="250a1355-cc3f-419e-be13-4172d0c6e03a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

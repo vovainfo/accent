@@ -11,4 +11,6 @@
     <picture>CommonPicture.Магазин</picture>
   </picture>
   <content>Catalog.Контрагенты</content>
+  <content>Report.ОтчетПоОстаткамНаСкладе</content>
+  <content>Report.ОтчетПоОстаткамНаСкладах</content>
 </mdclass:Subsystem>

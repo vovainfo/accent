@@ -645,6 +645,7 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.НазначениеУчетнойПолитики</documents>
   <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.СписаниеТовара</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
@@ -674,11 +675,16 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.УчетнаяПолитика</enums>
+  <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
   <reports>Report.ПроверкаЦелостностиТома</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
+  <reports>Report.ОтчетПоОстаткамНаСкладах</reports>
+  <reports>Report.ОтчетПоОстаткамНаСкладе</reports>
+  <reports>Report.ОтчетПоДвижениямТоваровНаСкладах</reports>
+  <reports>Report.ОтчетПоДвижениямТоваровНаСкладе</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
