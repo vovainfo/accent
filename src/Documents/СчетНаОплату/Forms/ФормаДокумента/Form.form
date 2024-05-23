@@ -392,7 +392,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СписокНоменклатуры.TotalСумма</segments>
+      <segments>Объект.СписокНоменклатуры.Сумма</segments>
     </dataPath>
     <extendedTooltip>
       <name>СуммаПоДокументуРасширеннаяПодсказка</name>
@@ -910,7 +910,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.АктВыполненныхРабот</types>
+      <types>DocumentObject.СчетНаОплату</types>
     </valueType>
     <view>
       <common>true</common>
@@ -946,7 +946,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenByRecorder</command>
+        <command>AccumulationRegister.РасчетыСКлиентами.StandardCommand.OpenByRecorder</command>
         <userVisible>
           <common>true</common>
         </userVisible>

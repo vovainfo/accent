@@ -648,6 +648,10 @@
   <documents>Document.СписаниеТовара</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.АктВыполненныхРабот</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <documents>Document.ВозвратТовара</documents>
+  <documents>Document.ПриходныйКассовыйОрдер</documents>
+  <documents>Document.ПоступлениеCредствНаБанковскийСчет</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
@@ -731,4 +735,5 @@
   <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКлиентами</accumulationRegisters>
 </mdclass:Configuration>

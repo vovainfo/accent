@@ -14,4 +14,7 @@
   <content>Report.ОтчетПоОстаткамНаСкладе</content>
   <content>Report.ОтчетПоОстаткамНаСкладах</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.ВозвратТовара</content>
+  <content>Document.СчетНаОплату</content>
+  <content>Document.ПриходныйКассовыйОрдер</content>
 </mdclass:Subsystem>

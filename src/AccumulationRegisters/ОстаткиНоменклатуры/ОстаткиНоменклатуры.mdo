@@ -49,21 +49,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="21f3d826-9f47-4812-9888-8607c5a1f6b8">
-    <name>Номенклатура</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номенклатура</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Номеклатура</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
   <dimensions uuid="585061a2-1fb7-4d9d-90d4-b72f1727963a">
     <name>Склад</name>
     <synonym>
@@ -79,6 +64,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="21f3d826-9f47-4812-9888-8607c5a1f6b8">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номеклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="4b3b4dee-6afa-464a-800d-280daefbf49b">
     <name>Партия</name>
     <synonym>
@@ -86,6 +86,7 @@
       <value>Партия</value>
     </synonym>
     <type>
+      <types>DocumentRef.ВозвратТовара</types>
       <types>DocumentRef.ПриходнаяНакладная</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
