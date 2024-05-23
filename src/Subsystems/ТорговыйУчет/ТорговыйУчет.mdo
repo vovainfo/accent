@@ -18,4 +18,7 @@
   <content>Document.СчетНаОплату</content>
   <content>Document.ПриходныйКассовыйОрдер</content>
   <content>Report.Продажи</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Document.ПоступлениеCредствНаБанковскийСчет</content>
+  <content>AccumulationRegister.РасчетыСКлиентами</content>
 </mdclass:Subsystem>
