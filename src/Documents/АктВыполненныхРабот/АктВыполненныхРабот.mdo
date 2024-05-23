@@ -26,7 +26,6 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.АктВыполненныхРабот.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.АктВыполненныхРабот.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d0ec812e-023a-4885-9fef-8bea487765da">
