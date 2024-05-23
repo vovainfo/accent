@@ -17,4 +17,5 @@
   <content>Document.ВозвратТовара</content>
   <content>Document.СчетНаОплату</content>
   <content>Document.ПриходныйКассовыйОрдер</content>
+  <content>Report.Продажи</content>
 </mdclass:Subsystem>

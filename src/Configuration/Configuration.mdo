@@ -691,6 +691,7 @@
   <reports>Report.ОтчетПоОстаткамНаСкладе</reports>
   <reports>Report.ОтчетПоДвижениямТоваровНаСкладах</reports>
   <reports>Report.ОтчетПоДвижениямТоваровНаСкладе</reports>
+  <reports>Report.Продажи</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>

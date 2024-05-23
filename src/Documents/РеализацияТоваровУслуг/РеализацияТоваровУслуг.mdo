@@ -15,7 +15,6 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.РеализацияТоваровУслуг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <basedOn>Document.РеализацияТоваровУслуг</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>

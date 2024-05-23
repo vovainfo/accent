@@ -15,7 +15,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПоступлениеCредствНаБанковскийСчет.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <basedOn>Document.РеализацияТоваровУслуг</basedOn>
+  <basedOn>Document.СчетНаОплату</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
