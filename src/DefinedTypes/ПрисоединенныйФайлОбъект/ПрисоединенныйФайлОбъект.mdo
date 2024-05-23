@@ -11,5 +11,6 @@
   <type>
     <types>CatalogObject.ВерсииФайлов</types>
     <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.КонтрагентыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

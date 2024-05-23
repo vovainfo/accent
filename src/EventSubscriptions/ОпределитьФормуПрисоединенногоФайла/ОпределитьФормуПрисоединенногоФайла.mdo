@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="046eaf89-d34b-4de5-821a-f99c73b0f270">
+  <name>ОпределитьФормуПрисоединенногоФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определить форму присоединенного файла</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.КонтрагентыПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

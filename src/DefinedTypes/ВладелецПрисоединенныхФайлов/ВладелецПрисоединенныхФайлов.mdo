@@ -11,5 +11,6 @@
   <type>
     <types>CatalogRef.ПапкиФайлов</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.Контрагенты</types>
   </type>
 </mdclass:DefinedType>

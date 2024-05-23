@@ -149,6 +149,10 @@
     <mdObject>Catalog.ВерсииРасширений</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.КонтрагентыПрисоединенныеФайлы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
   </content>
   <content>

@@ -488,6 +488,8 @@
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтПодчиненного</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайла</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
@@ -642,6 +644,7 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Номеклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтрагентыПрисоединенныеФайлы</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.НазначениеУчетнойПолитики</documents>
   <documents>Document.РасходнаяНакладная</documents>
