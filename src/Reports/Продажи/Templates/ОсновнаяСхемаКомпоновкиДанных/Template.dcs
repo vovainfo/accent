@@ -7,24 +7,12 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Период</dataPath>
-			<field>Период</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Регистратор</dataPath>
-			<field>Регистратор</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Номенклатура</dataPath>
 			<field>Номенклатура</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Склад</dataPath>
 			<field>Склад</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ПериодФилиал</dataPath>
-			<field>ПериодФилиал</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Контрагент</dataPath>
@@ -60,9 +48,7 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	Продажи.Период КАК Период,
 	Продажи.Регистратор КАК Регистратор,
-	Продажи.Активность КАК Активность,
 	Продажи.Номенклатура КАК Номенклатура,
 	Продажи.Склад КАК Склад,
 	Продажи.ПериодФилиал КАК ПериодФилиал,
@@ -74,7 +60,6 @@
 	РегистрНакопления.Продажи КАК Продажи
 ГДЕ
 	Продажи.ПериодФилиал МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
-	
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -86,10 +71,10 @@
 	Документ.РасходнаяНакладная КАК РасходнаяНакладная
 ГДЕ
 	РасходнаяНакладная.Основание В
-			(ВЫБРАТЬ
-				втПродажи.Регистратор
-			ИЗ
-				втПродажи КАК втПродажи)
+		(ВЫБРАТЬ
+			втПродажи.Регистратор
+		ИЗ
+			втПродажи КАК втПродажи)
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -102,35 +87,31 @@
 	РегистрНакопления.ОстаткиНоменклатуры КАК ОстаткиНоменклатуры
 ГДЕ
 	ОстаткиНоменклатуры.Регистратор В
-			(ВЫБРАТЬ
-				втРТУ_РН.РН
-			ИЗ
-				втРТУ_РН КАК втРТУ_РН)
+		(ВЫБРАТЬ
+			втРТУ_РН.РН
+		ИЗ
+			втРТУ_РН КАК втРТУ_РН)
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-	втПродажи.Период КАК Период,
-	втПродажи.Регистратор КАК Регистратор,
 	втПродажи.Номенклатура КАК Номенклатура,
 	втПродажи.Склад КАК Склад,
-	втПродажи.ПериодФилиал КАК ПериодФилиал,
 	втПродажи.Контрагент КАК Контрагент,
 	втПродажи.Количество КАК Количество,
 	втПродажи.Сумма КАК Сумма,
 	ЕСТЬNULL(втОстатки.Стоимость, 0) КАК Себестоимость,
-	втПродажи.Сумма - ЕСТЬNULL(втОстатки.Стоимость, 0)  КАК Прибыль
+	втПродажи.Сумма - ЕСТЬNULL(втОстатки.Стоимость, 0) КАК Прибыль
 ИЗ
 	втПродажи КАК втПродажи
 		ЛЕВОЕ СОЕДИНЕНИЕ втОстатки КАК втОстатки
 		ПО (втОстатки.Номенклатура = втПродажи.Номенклатура)
-			И (втОстатки.РТУ = втПродажи.Регистратор)
+		И (втОстатки.РТУ = втПродажи.Регистратор)
 </query>
 	</dataSet>
 	<totalField>
 		<dataPath>Количество</dataPath>
 		<expression>Сумма(Количество)</expression>
-		<group>Номенклатура</group>
 	</totalField>
 	<totalField>
 		<dataPath>Прибыль</dataPath>
@@ -256,6 +237,11 @@
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
 					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
 				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Auto</dcscor:value>
+				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
@@ -272,6 +258,13 @@
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						</dcsset:item>
+					</dcsset:groupItems>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					</dcsset:order>
@@ -374,6 +367,13 @@
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Номенклатура</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							</dcsset:item>
+						</dcsset:groupItems>
 						<dcsset:order>
 							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 						</dcsset:order>
